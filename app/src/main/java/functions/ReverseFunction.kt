@@ -19,7 +19,7 @@ fun reverse(list: List<Int>): List<Int> {
     return result
 }
 
-// down to is a kotlin built in function
+// "down to" is a kotlin built in function
 fun reverseDownTo(list: List<Int>): List<Int>{
     val result = arrayListOf<Int>()
 
