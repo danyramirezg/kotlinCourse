@@ -20,7 +20,7 @@ class Woman(val name: String, var age: Int) {
 }
 
 fun main(args: Array<String>){
-    val woman = Woman("Dany", 3)
+    val woman = Woman("Dany", 25)
 
     woman.speak()
     woman.greet("Dany")
