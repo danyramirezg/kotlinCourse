@@ -7,7 +7,7 @@ import java.nio.file.Files.size
     - The empty list must specify the element type:
         var colors = listOf<String>()
 
-    - The list are immutable, we can't add elements, we can't change the list
+    - The list are immutable, we can't add and remove elements
 
      - We can access throw the index and get:
         colors[0]
