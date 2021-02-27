@@ -28,7 +28,7 @@ fun main() {
     var input = numb.toInt()
     println(input::class.java)
 
-    val result = if (input < 10) "This is the number $input" else "The number has to be a single digit"
+    val result = if (input in 0..10) "This is the number $input" else "The number has to be a single digit"
 
     println(result)
 }
