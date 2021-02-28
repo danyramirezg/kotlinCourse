@@ -1,4 +1,4 @@
-package flow_controlAndLoops.exercises
+package flow_control_and_Loops.exercises
 
 /*
 
