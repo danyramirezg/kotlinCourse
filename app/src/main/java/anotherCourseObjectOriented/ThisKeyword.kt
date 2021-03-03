@@ -1,6 +1,4 @@
-package AnotherCourseObjectOriented
-
-import android.app.backup.BackupAgentHelper
+package anotherCourseObjectOriented
 
 /*
     Exercise: The 'this' keyword

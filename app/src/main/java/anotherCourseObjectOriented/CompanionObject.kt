@@ -1,4 +1,4 @@
-package AnotherCourseObjectOriented
+package anotherCourseObjectOriented
 
 /*
     Companion Object:
