@@ -12,9 +12,9 @@ import android.app.backup.BackupAgentHelper
 
 fun main() {
     val table = Table()
-    table.printInfo()
+    table.printInfo() // The table's size and height are 0, 0 respectively
     table.updateTable(54, 200)
-    table.printInfo()
+    table.printInfo() // The table's size and height are 200, 54 respectively
 }
 
 class Table {
