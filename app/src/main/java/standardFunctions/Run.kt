@@ -13,11 +13,12 @@ Create a laptop object and implement the protocol.
  */
 
 fun main() {
-    Laptop().run {
+    val laptop = Laptop().run {
         turnOn()
         turnOff()
         this
     }
+    println(laptop)
 }
 
 class Laptop {
