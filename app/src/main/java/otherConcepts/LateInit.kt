@@ -10,7 +10,7 @@ package otherConcepts
     Use .isInitialized to check initialization
 
 
-    Exercise: lateinit
+Exercise: lateinit
     Define a variable message as a String. Then define a list of prime numbers.
 
     A function takes the list of integers and randomly returns one of them. Use it to initialize
