@@ -1,7 +1,11 @@
 package otherConcepts
 
 /*
-    Exercise: lazy
+    lazy:
+    Lazy variables are variables that are initialized whe needed
+    Useful to save memory in case the variable is never accessed
+
+Exercise: lazy
     An object of a class NewUser is created for each new user. It contains a function to
     print a welcome message.
 
@@ -15,7 +19,7 @@ package otherConcepts
 fun main() {
 
     val newUser by lazy { NewUser() }
-    val bannedNames = listOf<String>("Dan", "Darago", "Natasha")
+    val bannedNames = listOf<String>("Dan", "Darago", "Natasha", "")
     println("Input your desired username")
     val input = readLine()?:""
     if(!bannedNames.contains(input.capitalize())){
