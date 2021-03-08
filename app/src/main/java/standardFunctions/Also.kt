@@ -4,7 +4,7 @@ import anotherCourseObjectOriented.Car
 
 /*
    Also:
-   Used for perfoming some additional actions on an object
+   Used for performing some additional actions on an object
    Common use is adding some actions that don't affect the object such as logging or debugging info
    Removing an also block shouldn't affect the execution of a program
 */
